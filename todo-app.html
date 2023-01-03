@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        TODO List
+    </title>
+    <link href="./todo-app.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <span class="heading"> TODO's</span>
+        <div class="addtodo-container">
+        <form onsubmit="handleInclude(event)" class="formParent">
+            <input type="text" 
+            class="inputfeild" 
+            placeholder="Task to be Added" 
+            required="required"
+            id="enteredValue" >
+
+            <button id="add" class="add-button" type="submit">
+                <i class="fa fa-plus"> ADD </i></button> 
+            </form>
+        </div>
+        <div id="to-do">
+            <!-- <div class="TaskItems">
+                <div class="TaskItems-text">
+                      
+                </div>
+                <div class="TaskItems-Button">
+                     <button class="edit-button"> Edit </button> <button class="delete-button">Delete</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="todo-app.js"> </script>
+</body>
+
+</html>

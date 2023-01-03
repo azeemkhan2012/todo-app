@@ -1,0 +1,145 @@
+
+
+body{
+    background-color: #066acd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.container{
+    border-radius: 10px;
+    width: 40%;
+    padding: 24px;
+}
+.addtodo-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputfeild {
+    font-family: 'Poppins',sans-serif;
+    width: 70%;
+    height: 25px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #d1d3d4;
+    font-size: 15px;
+
+}
+input:focus{
+    border-color: #0d75ec;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.add-button{
+
+    width: 20%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #02971b;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8ef98e;
+}
+.save-button{
+    width: 10%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #236bc9;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #75d3eb;
+}
+.add-button:hover{
+ background-color: #117822;
+}
+.save-button:hover{
+    background-color: #094683;
+}
+.delete-button{
+    
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 60px;
+
+}
+.edit-button{
+    
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:#1a74af;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ffffff00;
+    padding: 8px;
+    width: 60px;
+
+}
+
+#to-do{
+    border-radius: 10px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+
+}
+
+.TaskItems{
+      display: flex;
+      justify-content: space-between;
+
+}
+
+.TaskItems-Button {
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    padding: 1px;
+
+}
+
+.TaskItems-text{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.formParent{
+    display: contents;
+
+}
+
